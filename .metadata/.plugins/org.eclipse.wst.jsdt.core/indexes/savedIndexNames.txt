@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+/Users/alunotarde/Documents/Exemplo2 JAX-RS/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2477394541.index
+3470584311.index
+1996743805.index
+2177459381.index
+765648843.index
+1448820712.index
