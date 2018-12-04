@@ -1,0 +1,20 @@
+package io.altar.exemplo;
+
+import java.io.Serializable;
+
+public class Car implements Serializable {
+	private static final long serialVersionUID=1L;
+	int numberOfWheels;
+	String typeOfFuel;
+	double litersOfFuelComsumedPer100Km;
+	String brand;
+
+	public Car(int numberOfWheels, String typeOfFuel, double litersOfFuelComsumedPer100Km, String brand) {
+		super();
+		this.numberOfWheels = numberOfWheels;
+		this.typeOfFuel = typeOfFuel;
+		this.litersOfFuelComsumedPer100Km = litersOfFuelComsumedPer100Km;
+		this.brand = brand;
+	}
+
+}

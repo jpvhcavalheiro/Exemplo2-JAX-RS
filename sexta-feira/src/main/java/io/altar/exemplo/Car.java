@@ -1,0 +1,62 @@
+package io.altar.exemplo;
+
+import java.io.Serializable;
+
+public class Car implements Serializable {
+	private static final long serialVersionUID=1L;
+	long id;
+	int numberOfWheels;
+	String typeOfFuel;
+	double litersOfFuelComsumedPer100Km;
+	String brand;
+	
+	public Car(){}
+	
+	public Car(int numberOfWheels, String typeOfFuel, double litersOfFuelComsumedPer100Km, String brand) {
+		super();
+		this.numberOfWheels = numberOfWheels;
+		this.typeOfFuel = typeOfFuel;
+		this.litersOfFuelComsumedPer100Km = litersOfFuelComsumedPer100Km;
+		this.brand = brand;
+	}
+
+	public int getNumberOfWheels() {
+		return numberOfWheels;
+	}
+
+	public void setNumberOfWheels(int numberOfWheels) {
+		this.numberOfWheels = numberOfWheels;
+	}
+
+	public String getTypeOfFuel() {
+		return typeOfFuel;
+	}
+
+	public void setTypeOfFuel(String typeOfFuel) {
+		this.typeOfFuel = typeOfFuel;
+	}
+
+	public double getLitersOfFuelComsumedPer100Km() {
+		return litersOfFuelComsumedPer100Km;
+	}
+
+	public void setLitersOfFuelComsumedPer100Km(double litersOfFuelComsumedPer100Km) {
+		this.litersOfFuelComsumedPer100Km = litersOfFuelComsumedPer100Km;
+	}
+
+	public String getBrand() {
+		return brand;
+	}
+
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	
+	
+	
+
+}

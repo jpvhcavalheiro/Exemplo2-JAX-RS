@@ -1,0 +1,8 @@
+package io.altar.exemplo;
+
+public class Car {
+	int numberOfWheels;
+	String typeOfFuel;
+	double litersOfFuelComsumedPer100Km;
+	String brand;
+}
